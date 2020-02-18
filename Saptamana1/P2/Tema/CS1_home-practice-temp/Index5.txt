@@ -1,5 +1,0 @@
-Prin intermediul modelului de regresie liniara simpla, vom analiza
-daca variabila dependenta rata emigrarii defi nitive (‰) poate fi într-o relatie
-de dependenta directa cu salariul nominal mediu net (lei). Datele utilizate
-sunt înregistrate anual pentru perioada 2007-2017 si sunt preluate din baza
-TEMPO-Online a Institutului National de Statistica. 
