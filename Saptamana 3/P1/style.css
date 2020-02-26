@@ -1,0 +1,43 @@
+h1 {
+    font-size: 60px;
+}
+
+.main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#title {
+    text-decoration: underline;
+}
+
+a[href] {
+    text-decoration: none;
+}
+
+a[href*="wantsome"] {
+    color: green;
+}
+
+a[title="External link"] {
+    font-style: italic;
+}
+
+h1, a:hover {
+    color: red;
+    font-size: 40px;
+}
+
+footer a:last-child:focus {
+    text-decoration: underline;
+}
+
+footer::after{
+    content:"Continut adaugat din CSS";
+    background: yellow;
+}
+
+p::first-letter{
+    font-size: 30px;
+}
+/* comentariu css*/
+
