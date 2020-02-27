@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Search form</title>
+</head>
+
+<body>
+    <form>
+        <!--Search-->
+        <!--Se foloseste input pentru search si pentru submit-->
+        <label for="gsearch">Search for:</label><br>
+        <input type="search" name="gsearch" value="chocolate cheesecake recipes">
+        <input type="submit" value="Seach"><br>
+
+        <!--Match radio-->
+        Match:
+        <input type="radio" name="option1" value="anyWord">
+        <label for="anyWord">Any word</label>
+
+        <input type="radio" name="option2" value="allWords" checked>
+        <label for="allWords">All words</label>
+
+        <input type="radio" name="option3" value="exactPhrase">
+        <label for="exactPhrase">Exact phrase</label><br>
+
+        <input type="checkbox" name="option4" value="alikeMatching" checked>
+        <label for="alikeMatching">Sound-alike matching</label><br>
+
+        <!--Dated-->
+        Dated:
+        <input type="radio" name="dated1" value="lastDated">
+        <select name="date1">
+            <option value="lastYear">within the last year</option>
+            <option value="lastTwoYears">in the last two years</option>
+        </select><br>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="dated2"
+            value="period" checked>
+        &nbsp;&nbsp;&nbsp;From:
+        <select name="month">
+            <option>January</option>
+            <option>February</option>
+            <option>March</option>
+            <option>April</option>
+            <option>May</option>
+            <option>June</option>
+            <option>July</option>
+            <option>August</option>
+            <option selected>September</option>
+            <option>October</option>
+            <option>November</option>
+            <option>December</option>
+        </select>
+
+        <select name="day">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8" selected>8</option>
+            <option value="9">9</option>
+        </select>
+        ,
+        <input type="tel" name="year" value="2009">
+        <br>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;To:
+        <select name="month">
+            <option>January</option>
+            <option>February</option>
+            <option>March</option>
+            <option>April</option>
+            <option>May</option>
+            <option>June</option>
+            <option>July</option>
+            <option>August</option>
+            <option>September</option>
+            <option selected>October</option>
+            <option>November</option>
+            <option>December</option>
+        </select>
+
+        <select name="day">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="18" selected>18</option>
+        </select>
+        ,
+        <input type="tel" name="year" value="2011">
+        <br>
+
+        <!--Within-->
+        <label for="within">Within:</label>
+        <select name="within">
+            <option value="description">Description</option>
+        </select><br>
+
+        <!--Show-->
+        <label for="show">Show:</label>
+        <select name="showValue">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="10" selected>10</option>
+        </select>
+        results
+        <select name="choice">
+            <option value="with" selected>with</option>
+            <option value="without">without</option>
+        </select>
+        summaries <br>
+
+        <!--Sort by-->
+        <label for="SortBy">Sort by:</label>
+        <select name="tourPackage">
+            <option value="relevance" selected>relevance</option>
+            <option value="ascending">ascending</option>
+            <option value="descending">ascending</option>
+        </select>
+        <br>
+
+    </form>
+</body>
+
+</html>

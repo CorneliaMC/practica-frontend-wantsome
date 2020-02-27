@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML elements and Attributes</title>
+</head>
+
+<body>
+    <h1>Formular</h1>
+    <form>
+        <!--text-->
+        <label for="name">Nume</label><br>
+        <input type="text" name="nume" value="Popescu" required><br>
+
+        <label for="prename">Prenume</label><br>
+        <input type="text" name="prenume" value="Marian" required><br>
+
+        <!--radio-->
+        <label for="gender">Sex</label><br>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" value="male">
+
+        <label for="female">Female</label>
+        <input type="radio" name="gender" value="female">
+
+        <label for="other">Other</label>
+        <input type="radio" name="gender" value="other"><br>
+
+        <!--number-->
+        <label for="number">Varsta</label><br>
+        <input type="number" name="age" min="18" max="85"><br>
+
+        <!--select tara-->
+        <label for="country">Tara</label><br>
+        <select name="country">
+            <option value="None selected">Specificati tara</option>
+            <option value="Spania">Spania</option>
+            <option value="Albania">Albania</option>
+            <option value="Italia">Italia</option>
+            <option value="Germania">Germania</option>
+            <option value="Romania">Romania</option>
+            <option value="Suedia">Suedia</option>
+            <option value="Danemarca">Danemarca</option>
+        </select>
+        <br>
+
+        <!--select oras-->
+        <label for="city">Orasul</label>
+        <br>
+        <select name="city">
+            <option value="None selected">Specificati orasul</option>
+            <option value="Oradea">Oradea</option>
+            <option value="Bucuresti">Bucuresti</option>
+            <option value="Suceava">Suceava</option>
+            <option value="Bacau">Bacau</option>
+            <option value="Iasi">Iasi</option>
+            <option value="Sibiu">Sibiu</option>
+            <option value="Brasov">Brasov</option>
+        </select>
+        <br>
+
+        <!--adresa-->
+        <label for="adresa">Adresa</label><br>
+        <input type="text" name="adresa" value="Str.Unirii, Nr.3"><br>
+
+        <!--Pentru codurile postale se folosesc paternuri [] intervalul de variatie Zip se trateaza ca strig-->
+        <label for="zipCode">Cod Postal</label><br>
+        <input type="text" name="zipCode" inputmode="numeric" pattern="[0-9]*" /><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" name="email" size="35" placeholder="name@domain.com" required><br>
+
+        <!--comment-->
+        <label for="comment">Comentarii</label><br>
+        <textarea name="comment" rows="5" maxlength="200" cols="50" placeholder="Pentru alte detalii..."></textarea>
+        <!--cols--Specifică lățimea vizibilă initiala a unei zone de text-->
+        <!--maxlength-- Numarul maxim de caractere ce pot fi introduse-->
+        <br>
+        <!--inport file-->
+        <label for="cvFile">Incarca CV</label>
+        <input type="file" name="cvFile">
+        <br><br><br>
+        <!--Butoane pentru submit si reset-->
+        <input type="submit" value="Submit">
+        <input type="reset">
+
+
+    </form>
+</body>
+
+</html>
