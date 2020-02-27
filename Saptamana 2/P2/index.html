@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>FORMS AND INPUTS</title>
+</head>
+
+<body>
+
+    <h1>Exercitii Html</h1>
+    <form>
+        <div>
+        <!--create form element-->
+
+        Nume: <input type="text" name="nume">
+        <br>
+        Prenume: <input type="text" name="prenume">
+        <!--Add required field-->
+
+        <br>
+        Adresa: <input type="text" name="adresa" required>
+        <!--create radio buttons-->
+
+        <p>Selectati genul:</p>
+        <input type="radio" name="gender" value="male">
+        <label for="male">mascultin</label><br>
+        <input type="radio" name="gender" value="female">
+        <label for="female">feminin</label><br>
+        <input type="radio" name="gender" value="other">
+        <label for="other">altul</label>
+        <!--create chekboxes-->
+
+        <p>Ce retele de socializare folositi?</p>
+            <input type="checkbox" name="social" value="facebook">
+            <label for="facebook">Facebook</label>
+            <br>
+            <input type="checkbox" name="social" value="instagram">
+            <label for="instagram">Instagram</label>
+            <br>
+            
+        <!--check radio buttons and checkboxes by default-->
+        <p>Ce culoare iti place?</p>
+            
+        <input type="checkbox" name="colour" value="Red">
+        <label for="Red"> Rosu</label><br>
+        <input type="checkbox" name="colour" value="Blue">
+        <label for="Blue"> Albastru</label><br>
+        <input type="checkbox" name="colour" value="Green" checked>
+        <label for="Green"> Verde</label><br>
+        <input type="submit">
+        </div>
+    </form>
+
+</body>
+
+</html>
