@@ -1,0 +1,39 @@
+h1 {
+    font-family: snell roundhand, cursive;
+    color: rebeccapurple;
+    font-size: 30px;
+}
+
+body {
+    background-color: lightsteelblue;
+}
+.first {
+    background-color: orange;
+    padding: 20px;
+    height:250px;
+    width: 200px;
+    text-align: left;
+    outline-style: dashed;
+    margin: 20px;
+
+    
+}
+
+.second {
+    background-color: salmon;
+    border: dotted maroon 4px;
+    padding: 20px;
+    margin:30 px;
+    border-radius:8px;
+    height: 320px;
+    width: 300px;
+}
+
+input[type="submit"]:hover {
+    color: green;
+}
+
+input:last-child:hover {
+    color:red;
+}
+
