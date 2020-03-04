@@ -1,0 +1,35 @@
+.container {
+    position: relative;
+    border: cadetblue 3px solid;
+  }
+  
+nav {
+    position: absolute;
+    width: 200px;
+    border: pink 3px solid ;
+  }
+
+section {
+    margin-left: 200px;
+    border: solid;
+    border-color:yellow;
+    padding: 15px;
+}
+
+footer {
+    position: fixed;
+    border: greenyellow 3px solid;
+    height: 10%;
+    width: 100%;
+}
+
+body {
+    margin-bottom: 30px;
+
+}
+    
+
+
+
+
+ 

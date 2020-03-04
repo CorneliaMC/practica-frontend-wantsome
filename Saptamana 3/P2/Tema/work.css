@@ -1,0 +1,14 @@
+h1 {
+    visibility: hidden;
+}
+
+h2 {
+    display: none;
+}
+
+ul li {
+    display: inline;
+}
+
+
+
