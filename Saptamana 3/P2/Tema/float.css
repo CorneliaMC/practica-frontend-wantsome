@@ -1,0 +1,32 @@
+.container {
+    clear: both;
+    box-sizing: border-box;
+    border: cadetblue 3px solid;
+    margin: 0 auto;
+    width: 900px;
+  }
+  
+nav {
+    float: left;
+    width: 200px;
+    border: pink 3px solid ;
+  }
+
+section {
+    margin-left: 200px;
+    border: solid;
+    border-color:yellow;
+    padding: 15px;
+}
+
+footer {
+    clear: both;	
+    border: greenyellow 3px solid;
+    height: 10%;
+    width: 100%;
+}
+
+
+.all-section {
+    float: left;
+}
